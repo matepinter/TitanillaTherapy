@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Playfair Display", Helvetica, sans-serif;
+}
+
+h1, .g-back, .o-back, .head {
+    font-family: "Fascinate Inline", "Playfair Display", Helvetica, sans-serif;
+}
+
+.g-back, .o-back {
+    font-size: 34px;
+    letter-spacing: 10px;
+}
+
+body{
+    background-image: url('./images/background.jpg');
+    background-size: 50%;
+    background-attachment: fixed;
+    background-position: center center;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+    line-height: 1;
+    cursor: pointer;
+}
+
+.container {
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.top-margin {
+    margin-top: 140px;
+}
+
+.scale img {
+    transition: transform 0.3s ease;
+}
+
+.scale img:hover {
+    transform: scale(1.2);
+}
+
+@media only screen and (max-width: 480px) {
+    .top-margin {
+        margin-top: 80px;
+    }
+
+    .g-back, .o-back {
+        font-size: 24px;
+        letter-spacing: 0;
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    .top-margin {
+        margin-top: 100px;
+    }
+
+    .g-back, .o-back {
+        font-size: 24px;
+        letter-spacing: 0;
+    }
+
+
+}

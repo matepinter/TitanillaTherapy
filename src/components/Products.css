@@ -1,0 +1,67 @@
+.g-h1 {
+    margin: 40px;
+    text-align: center;
+}
+
+.g-back {
+    background-color: rgb(132, 156, 132, 0.7);
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.products {
+    width: 100%;
+    background-color: rgb(241, 229, 217, 0.7);
+    margin: 0 auto;
+    border-radius: 50px;
+    padding: 20px;
+    text-align: center;
+}
+
+.products p {
+    width: 60%;
+    margin: 20px auto;
+}
+
+.etsy {
+    width: 80px;
+    height: auto;
+}
+
+.products a {
+    text-decoration: underline;
+    font-size: 20px;
+}
+
+.products a:hover {
+    color: #e8c2b4;
+}
+
+.etsy-imgs {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.etsy-img {
+    width: 28%;
+    max-width: 350px;
+    height: auto;
+    border-radius: 8%;
+    border: 1px solid black;
+}
+
+@media only screen and (max-width: 480px) {
+    .etsy-imgs {
+        display: block;
+    }
+
+    .etsy-img {
+        display: block;
+        width: 60%;
+        margin-right: auto;
+        margin-left: auto;
+        margin-top: 20px;
+    }
+}

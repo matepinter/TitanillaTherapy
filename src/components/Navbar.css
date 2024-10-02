@@ -1,0 +1,173 @@
+nav{
+    width: 100%;
+    background: #e8c2b4;
+    color: black;
+    padding: 4px 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 10;
+    box-shadow: 0 1px 4px rgba(0,0,0,0.3);
+}
+
+.logo {
+    width: 110px;
+    height: auto;
+}
+
+.list {
+    flex: 1;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline-block;
+    list-style-type: none;
+    margin: 5px 20px;
+    font-size: 20px;
+}
+
+a {
+    transition: color 0.2s;
+}
+
+a:hover {
+    color: white;
+    cursor: pointer;
+}
+
+.menu-icon {
+    display: none;
+}
+
+nav button {
+    background-color: white;
+    border-radius: 30px;
+    border: none;
+    padding: 5px 10px;
+    font-size: 18px;
+    cursor: pointer;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 3px 10px 0 rgba(0,0,0,0.19);
+    transition: all 0.3s;
+}
+
+nav button:hover {
+    background-color: rgb(255, 189, 89);
+}
+
+
+.hide-lang {
+    display: none;
+}
+
+.lang-change button {
+    margin: 10px;
+}
+
+
+
+@media only screen and (max-width: 480px) {
+
+
+
+    nav ul {
+        position: fixed;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        background-color: #e1af9d;
+        z-index: -1;
+        width: 200px;
+        padding-top: 70px;
+        transition: 0.5s;
+    }
+
+    nav ul li {
+        display: block;
+        margin: 25px 40px;
+        text-align: center;
+    }
+
+    .logo {
+        width: 80px;
+        height: auto;
+    }
+
+    .menu-icon {
+        display: block;
+        font-size: 25px;
+        cursor: pointer;
+    }
+
+    .hide-menu {
+        right: -200px;
+    }
+
+    .lang-change {
+        display: none;
+    }
+
+    .hide-lang {
+        display: block;
+    }
+
+}
+
+@media only screen and (min-width: 481px) and (max-width: 1288px) {
+    nav {
+        padding: 15px 0;
+    }
+
+    nav ul {
+        position: fixed;
+        top: 0;
+        right: 0px;
+        bottom: 0;
+        background-color:  #e1af9d;
+        z-index: -1;
+        width: 200px;
+        padding-top: 70px;
+        transition: 0.5s;
+    }
+
+    nav ul li {
+        display: block;
+        margin: 25px 40px;
+    }
+
+    .menu-icon {
+        display: block;
+        font-size: 30px;
+        cursor: pointer;
+    }
+
+    .hide-menu {
+        right: -200px;
+    }
+
+    .lang-change {
+        display: none;
+    }
+
+    .hide-lang {
+        display: block;
+    }
+
+}
+
+@media only screen and (max-width: 1417px){
+    .right-margin-nav {
+        margin-right: 0;
+    }
+
+}
+
+@media only screen and (max-width: 1024px) and (orientation: landscape) {
+    nav {
+        position: absolute;
+    }
+
+}

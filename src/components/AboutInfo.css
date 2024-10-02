@@ -1,0 +1,190 @@
+.about {
+    display: block;
+}
+
+.g-h1 {
+    text-align: center;
+}
+
+.g-back {
+    background-color: rgb(132, 156, 132, 0.7);
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.p-back2 {
+    width: 100%;
+    background-color: rgb(232, 194, 180, 0.7);
+    margin-top: 0 auto;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1em;
+}
+
+.p-back2 .text {
+    display: block;
+    max-width: 600px;
+    background-color: #fde4dc;
+    border-radius: 30px;
+    margin: 20px;
+}
+
+.p-back2 p {
+    margin: 20px;
+}
+
+.img4 {
+    width: 400px;
+    height: auto;
+    border-radius: 29% 24% 51% 37% / 100% 40% 78% 15%;
+    margin: 20px;
+}
+
+.studies {
+    width: 100%;
+    background-color: rgb(241, 229, 217, 0.7);
+    margin: 50px auto;
+    border-radius: 50px;
+}
+
+.studies-cont {
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1em;
+    padding: 30px;
+}
+
+.text {
+    font-style: italic;
+    font-size: 20px;
+}
+
+.sch {
+    display: block;
+    max-width: 400px;
+}
+
+.uni {
+    font-weight: bold;
+    margin: 0;
+    font-size: 22px;
+}
+
+.dep {
+    margin-left: 100px;
+    margin-bottom: 10px;
+}
+
+.d-show {
+    display: none;
+}
+
+.edu-icon {
+    width: 70px;
+    margin-right: 10px;
+}
+
+.uni-cont {
+    display: flex;
+    align-items: center;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+    .p-back2 .text {
+        max-width: 80%;
+        padding: 10px;
+        border-radius: 25px;
+        text-align: justify;
+        margin: 0 auto;
+    }
+
+    .p-back2 {
+        display: block;
+        padding-top: 20px;
+        text-align: center; 
+    }
+
+    .img4 {
+        width: 60%;
+        max-width: 250px;
+        height: auto;
+        border-radius: 29% 24% 51% 37% / 100% 40% 78% 15%;
+        margin: 10px auto;
+    }
+
+    .studies-cont {
+        display: block;
+    }
+
+    .d-hide {
+        display: none;
+    }
+
+    .d-show {
+        display: block;
+    }
+
+    .sch {
+        margin: 0 auto 20px auto;
+    }
+
+    .uni {
+        font-size: 18px;
+    }
+
+    .text {
+        font-size: 18px;
+    }
+}
+
+@media only screen and (min-width: 481px) and (max-width: 820px) {
+    .p-back2 .text {
+        max-width: 80%;
+        padding: 10px;
+        border-radius: 25px;
+        text-align: justify;
+        margin: 0 auto;
+    }
+
+    .p-back2 {
+        display: block;
+        padding-top: 20px;
+        text-align: center; 
+    }
+
+    .img4 {
+        width: 60%;
+        max-width: 350px;
+        height: auto;
+        border-radius: 29% 24% 51% 37% / 100% 40% 78% 15%;
+        margin: 10px auto;
+    }
+
+    .studies-cont {
+        display: block;
+    }
+
+    .d-hide {
+        display: none;
+    }
+
+    .d-show {
+        display: block;
+    }
+
+    .sch {
+        margin: 0 auto 20px auto;
+    }
+
+    .uni {
+        font-size: 18px;
+    }
+
+    .text {
+        font-size: 18px;
+    }
+}
