@@ -17,7 +17,7 @@ h1, .g-back, .o-back, .head {
 body{
     background-image: url('./images/background.JPG');
     background-size: 50%;
-    background-attachment: fixed;
+    background-attachment: fixed !important;
     background-position: center center;
 }
 
@@ -44,6 +44,7 @@ a{
 .scale img:hover {
     transform: scale(1.2);
 }
+
 
 @media only screen and (max-width: 480px) {
     .top-margin {
