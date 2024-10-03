@@ -14,18 +14,18 @@ const Footer = ({ scrollToComponent }) => {
             </div>
 
             <div className="footer-center">
-            <h4>{translations[language].quick}</h4>
+            <h4>{translations[language].nav.quick}</h4>
             <ul>
-                <li><a href="#home" onClick={(e) => {e.preventDefault(); scrollToComponent('home');}}>{translations[language].main}</a></li>
-                <li><a href="#about" onClick={(e) => {e.preventDefault(); scrollToComponent('about');}}>{translations[language].about}</a></li>
-                <li><a href="#services" onClick={(e) => {e.preventDefault(); scrollToComponent('services');}}>{translations[language].servicies}</a></li>
-                <li><a href="#products" onClick={(e) => {e.preventDefault(); scrollToComponent('products');}}>{translations[language].products}</a></li>
-                <li><a href="#contact" onClick={(e) => {e.preventDefault(); scrollToComponent('contact');}}>{translations[language].contacts}</a></li>
+                <li><a href="#home" onClick={(e) => {e.preventDefault(); scrollToComponent('home');}}>{translations[language].nav.main}</a></li>
+                <li><a href="#about" onClick={(e) => {e.preventDefault(); scrollToComponent('about');}}>{translations[language].nav.about}</a></li>
+                <li><a href="#services" onClick={(e) => {e.preventDefault(); scrollToComponent('services');}}>{translations[language].nav.servicies}</a></li>
+                <li><a href="#products" onClick={(e) => {e.preventDefault(); scrollToComponent('products');}}>{translations[language].nav.products}</a></li>
+                <li><a href="#contact" onClick={(e) => {e.preventDefault(); scrollToComponent('contact');}}>{translations[language].nav.contacts}</a></li>
             </ul>
             </div>
 
             <div className="footer-right">
-            <h4>{translations[language].follow}</h4>
+            <h4>{translations[language].nav.follow}</h4>
             <ul className="socials">
                 <li><a href="https://www.facebook.com/profile.php?id=61556636301910" target="_blank" rel="noopener noreferrer">Facebook</a></li>
                 <li><a href="https://www.instagram.com/titanillatherapy/" target="_blank" rel="noopener noreferrer">Instagram</a></li>

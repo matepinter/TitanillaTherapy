@@ -11,7 +11,8 @@ const cardData = [
     { id: 1, review: '“Nagyon alapos felmérést végzettel a gyermekeknél. Játékos feladatok voltak, az együttműködés is nagyon jól ment. A fejlesztés is szuper!”'},
     { id: 2, review: '“A kisfiam járt Titához, a foglalkozás minden percét élvezte, mi szülők is nagyon sok támogatástkaptunk Titától nem csakszakmailag, hanem emberileg is. Sok nehéz pillanatban tartott meg minket. És ami a legfontosabb a kisfiam nagyon sokat fejlődött a közös munka során. Lelkiismeretes és elhivatott szakember, én nagyon jó szívvel tudom őt ajánlani!“'},
     { id: 3, review: '“Gyermekcentrikus, türelmes, megbízható, ügyesen teremt kapcsolatot a gyerekekkel. A gyerekek gyorsan oldódnak a közelèben. Kreatív feladatokkal, jàtèkosan fejleszti, tanítja a gyerekeket. Mi kèt gyerekkel jàrunk hozzà rendszeresen. A gyerekek mindig vàrjàk a fogalkozásokat,szívesen vesznek rèszt a foglalkozásokon. Csak ajánlani tudom Őt.”'},
-    { id: 4, review: '“Titanilla a legnagyobb szeretettel , türelemmel és szaktudással vezeti minden egyes foglalkozását. Minden találkozó után látszik a fejlődés a kislányunkon. Nagyon sokat köszönhetünk neki. Mindenkinek csak ajánlani tudom.”'}
+    { id: 4, review: '“Titanilla a legnagyobb szeretettel , türelemmel és szaktudással vezeti minden egyes foglalkozását. Minden találkozó után látszik a fejlődés a kislányunkon. Nagyon sokat köszönhetünk neki. Mindenkinek csak ajánlani tudom.”'},
+    {id: 5, review: '“Mindenkinek nyugodt szívvel ajánlom Titanillát és a foglalkozását. Rendkívül gyerekszerető, kedves és türelmes. A kisfiam azonnal a szívébe zárta, nekünk pedig nagyon szimpatikus lett. A gyermekem mindig nagyon várja a közös találkozásokat.Láthatóan sokat fejlődött és ez nagy örömmel tölt el minket. Keressétek bizalommal .”'}
   ];
 
 const UserReview = () => {
@@ -22,7 +23,7 @@ const UserReview = () => {
       const newIndex = isFirstSlide ? cardData.length - 1 : currentIndex - 1;
       setCurrentIndex(newIndex);
     };
-  
+
     const nextCard = () => {
       const isLastSlide = currentIndex === cardData.length - 1;
       const newIndex = isLastSlide ? 0 : currentIndex + 1;

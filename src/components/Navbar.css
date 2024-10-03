@@ -158,12 +158,7 @@ nav button:hover {
 
 }
 
-@media only screen and (max-width: 1417px){
-    .right-margin-nav {
-        margin-right: 0;
-    }
 
-}
 
 @media only screen and (max-width: 1024px) and (orientation: landscape) {
     nav {
