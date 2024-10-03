@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import './CardSlider.css'
-import rstep from '../images/r-step.png'
-import lstep from '../images/l-step.png'
+import rstep from '../images/r-step.PNG'
+import lstep from '../images/l-step.PNG'
 import { useLanguage } from './LanguageContext';
 
 

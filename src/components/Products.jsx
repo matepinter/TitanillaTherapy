@@ -1,9 +1,9 @@
 import React from 'react'
 import "../components/Products.css"
-import etsylogo from "../images/etsy-logo.png"
-import etsy1 from "../images/etsy-1.jpg"
-import etsy2 from "../images/etsy-2.jpg"
-import etsy3 from "../images/etsy-3.jpg"
+import etsylogo from "../images/etsy-logo.PNG"
+import etsy1 from "../images/etsy-1.JPG"
+import etsy2 from "../images/etsy-2.JPG"
+import etsy3 from "../images/etsy-3.JPG"
 
 const Products = () => {
   return (

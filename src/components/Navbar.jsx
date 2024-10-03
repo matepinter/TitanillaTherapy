@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import './Navbar.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBars, faTimes } from '@fortawesome/free-solid-svg-icons';
-import logo from '../images/logo.png'
+import logo from '../images/logo.PNG'
 import { useLanguage } from './LanguageContext';
 
 

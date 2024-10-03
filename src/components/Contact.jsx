@@ -1,11 +1,11 @@
 import React from 'react'
 import "../components/Contact.css"
-import faceicon from "../images/face-icon.png"
-import instaicon from "../images/insta-icon.png"
-import phone from "../images/phone-icon.png"
-import mail from "../images/mail-icon.png"
-import loc from "../images/loc-icon.png"
-import house from "../images/home-icon.png"
+import faceicon from "../images/face-icon.PNG"
+import instaicon from "../images/insta-icon.PNG"
+import phone from "../images/phone-icon.PNG"
+import mail from "../images/mail-icon.PNG"
+import loc from "../images/loc-icon.PNG"
+import house from "../images/home-icon.PNG"
 
 const Contact = () => {
   return (

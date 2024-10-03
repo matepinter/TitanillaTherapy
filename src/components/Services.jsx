@@ -1,13 +1,13 @@
 import React from 'react'
 import '../components/Services.css'
-import img5 from '../images/img5.jpg'
-import img6 from '../images/img6.jpg'
-import servicon1 from '../images/serv-icon1.png'
-import servicon2 from '../images/serv-icon2.png'
-import servicon3 from '../images/serv-icon3.png'
-import servicon4 from '../images/serv-icon4.png'
-import servicon5 from '../images/serv-icon5.png'
-import servicon6 from '../images/serv-icon6.png'
+import img5 from '../images/img5.JPG'
+import img6 from '../images/img6.JPG'
+import servicon1 from '../images/serv-icon1.PNG'
+import servicon2 from '../images/serv-icon2.PNG'
+import servicon3 from '../images/serv-icon3.PNG'
+import servicon4 from '../images/serv-icon4.PNG'
+import servicon5 from '../images/serv-icon5.PNG'
+import servicon6 from '../images/serv-icon6.PNG'
 
 const Services = () => {
   return (

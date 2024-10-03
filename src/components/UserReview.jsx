@@ -1,11 +1,11 @@
 import React, { useState } from 'react'
 import "../components/UserReview.css"
-import fiveStare from "../images/five-star.png"
-import rstep from '../images/r-step.png'
-import lstep from '../images/l-step.png'
-import mark from "../images/mark.png"
-import img7 from "../images/img7.jpg"
-import img8 from "../images/img8.jpg"
+import fiveStare from "../images/five-star.PNG"
+import rstep from '../images/r-step.PNG'
+import lstep from '../images/l-step.PNG'
+import mark from "../images/mark.PNG"
+import img7 from "../images/img7.JPG"
+import img8 from "../images/img8.JPG"
 
 const cardData = [
     { id: 1, review: '“Nagyon alapos felmérést végzettel a gyermekeknél. Játékos feladatok voltak, az együttműködés is nagyon jól ment. A fejlesztés is szuper!”'},

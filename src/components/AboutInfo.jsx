@@ -1,8 +1,8 @@
 import React from 'react'
 import '../components/AboutInfo.css'
-import img4 from "../images/img4.jpg"
-import hat from "../images/edu_hat.png"
-import pap from "../images/edu_pap.png"
+import img4 from "../images/img4.JPG"
+import hat from "../images/edu_hat.PNG"
+import pap from "../images/edu_pap.PNG"
 
 const AboutInfo = () => {
   return (
