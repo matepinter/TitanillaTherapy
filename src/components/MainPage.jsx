@@ -9,11 +9,6 @@ import step2 from '../images/step2.PNG'
 import step3 from '../images/step3.PNG'
 import step4 from '../images/step4.PNG'
 import rarrow from '../images/r-arrow.PNG'
-import card1 from '../images/card1.PNG'
-import card2 from '../images/card2.PNG'
-import card3 from '../images/card3.PNG'
-import card4 from '../images/card4.PNG'
-import card5 from '../images/card5.PNG'
 import { useLanguage } from './LanguageContext';
 
 
@@ -42,11 +37,11 @@ const MainPage = () => {
       </div>
 
       <div className="p-back scale">
-          <img src={card1} className="icon"/>
-          <img src={card2} className="icon"/>
-          <img src={card3} className="icon"/>
-          <img src={card4} className="icon"/>
-          <img src={card5} className="icon"/>
+          <img src={translations[language].main.card1} className="icon"/>
+          <img src={translations[language].main.card2} className="icon"/>
+          <img src={translations[language].main.card3} className="icon"/>
+          <img src={translations[language].main.card4} className="icon"/>
+          <img src={translations[language].main.card5} className="icon"/>
       </div>
 
       <div className='top-margin'>

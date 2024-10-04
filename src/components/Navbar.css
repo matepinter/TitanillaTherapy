@@ -137,6 +137,11 @@ nav button:hover {
     nav ul li {
         display: block;
         margin: 25px 40px;
+        text-align: center;
+    }
+
+    nav ul li:first-child {
+        margin-top: 70px;
     }
 
     .menu-icon {

@@ -1,3 +1,19 @@
+import card1 from '../images/card1.PNG'
+import card2 from '../images/card2.PNG'
+import card3 from '../images/card3.PNG'
+import card4 from '../images/card4.PNG'
+import card5 from '../images/card5.PNG'
+import card1de from '../images/card1-de.PNG'
+import card2de from '../images/card2-de.PNG'
+import card3de from '../images/card3-de.PNG'
+import card4de from '../images/card4-de.PNG'
+import card5de from '../images/card5-de.PNG'
+import card1en from '../images/card1-en.PNG'
+import card2en from '../images/card2-en.PNG'
+import card3en from '../images/card3-en.PNG'
+import card4en from '../images/card4-en.PNG'
+import card5en from '../images/card5-en.PNG'
+
 export const translations = {
     en: {
       nav: {
@@ -20,7 +36,13 @@ export const translations = {
         tel: "Phone Consultation",
         fac: "In-Person Meeting",
         tog: "Start of Collaboration",
-        p4: "Take the first step! Contact me by phone, WhatsApp, or email so we can discuss how I can help your child."
+        p4: "Take the first step! Contact me by phone, WhatsApp, or email so we can discuss how I can help your child.",
+        card1: card1en,
+        card2: card2en,
+        card3: card3en,
+        card4: card4en,
+        card5: card5en,
+
       },
 
       slider: {
@@ -62,7 +84,12 @@ export const translations = {
         tel: "Telefonische Beratung",
         fac: "Persönliches Treffen",
         tog: "Beginn der Zusammenarbeit",
-        p4: "Mache den ersten Schritt! Kontaktiere mich telefonisch, über WhatsApp oder per E-Mail, um zu besprechen, wie ich dir und deinem Kind helfen kann."
+        p4: "Mache den ersten Schritt! Kontaktiere mich telefonisch, über WhatsApp oder per E-Mail, um zu besprechen, wie ich dir und deinem Kind helfen kann.",
+        card1: card1de,
+        card2: card2de,
+        card3: card3de,
+        card4: card4de,
+        card5: card5de,
       },
 
       slider: {
@@ -104,7 +131,12 @@ export const translations = {
         tel: "Telefonos konzultáció",
         fac: "Személyes találkozó",
         tog: "Együttműködés megkezdése",
-        p4: "Tedd meg az első lépést! Keress meg telefonon, WhatsApp-on vagy e-mailben, hogy megbeszéljük, hogyan tudok segíteni gyermekednek."
+        p4: "Tedd meg az első lépést! Keress meg telefonon, WhatsApp-on vagy e-mailben, hogy megbeszéljük, hogyan tudok segíteni gyermekednek.",
+        card1: card1,
+        card2: card2,
+        card3: card3,
+        card4: card4,
+        card5: card5,
       },
 
       slider: {
