@@ -15,8 +15,8 @@ h1, .g-back, .o-back, .head {
 }
 
 body{
-    background-image: url('./images/background.JPG');
-    background-size: 50%;
+    background-image: url('./images/background.PNG');
+    background-size: 80%;
     background-attachment: fixed !important;
     background-position: center center;
 }
