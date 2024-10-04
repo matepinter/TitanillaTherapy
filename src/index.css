@@ -16,9 +16,9 @@ h1, .g-back, .o-back, .head {
 
 body{
     background-image: url('./images/background.PNG');
-    background-size: 80%;
+    background-size: 75%;
     background-attachment: fixed !important;
-    background-position: center center;
+
 }
 
 a{
@@ -55,6 +55,7 @@ a{
         font-size: 24px;
         letter-spacing: 0;
     }
+
 }
 
 @media only screen and (max-width: 1024px) {
