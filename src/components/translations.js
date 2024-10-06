@@ -60,6 +60,22 @@ export const translations = {
         ans6: "If you cancel within 24 hours before the session, 100% of the development fee must be reimbursed (due to reservation costs).",
         que7: "Can we attend both individual and group sessions?",
         ans7: "Of course! If the child can be placed in a group, both types of sessions can be utilized. In fact, it is recommended!",
+      },
+
+      about: {
+        h3: "About me",
+        p5: "Over the years, I have worked with many different children and young people. My profession has become my vocation.",
+        p6: "In my work, I believe it is important to tailor the course of therapy according to the child's problem and condition, while embedding it in play so that the development is a joyful experience and the child feels safe.",
+        p7: "I strive to find the path to children through play and loving engagement.",
+        p8: "During the sessions, I use high-standard professional methods and keep my knowledge up to date.",
+        p9: "In addition to developing children, I also consider it important to provide proper information and support to parents, as they often face challenges alone on this journey.",
+        h4: "My Studies",
+        uni1: "University of Debrecen",
+        maj1: "Special Needs Educator and Therapist - Learning Disabilities and Difficulties",
+        uni2: "Eötvös Loránd University",
+        maj2: "Special Needs Educator and Therapist - Physical Disabilities",
+        cert: "Further Studies",
+        certs: ["Motor development in the context of infant reflexes","Preventive support for the development of writing movements in preschool","Children's yoga instructor"]
       }
     },
 
@@ -107,6 +123,22 @@ export const translations = {
         ans6: "Im Verhinderungsfall müssen die Sitzungen mindestens 24h im Voraus abgesagt werden, ansonsten erfolgt eine Verrechnung des gesamten Honorars.",
         que7: "Können wir sowohl an Einzel- als auch an Gruppenunterricht teilnehmen?",
         ans7: "Ja, das ist möglich! Wenn das Kind in eine Gruppe integriert werden kann, stehen sowohl Einzel- als auch Gruppenunterricht zur Verfügung. Tatsächlich wird beides oft empfohlen, um die Förderung umfassend zu gestalten.",
+      },
+
+      about: {
+        h3: "Über mich",
+        p5: "Im Laufe der Jahre habe ich mit vielen verschiedenen Kindern und Jugendlichen gearbeitet. Mein Beruf ist zu meiner Berufung geworden.",
+        p6: "In meiner Arbeit lege ich großen Wert darauf, die Therapie entsprechend dem Problem und dem Zustand des Kindes zu, jedoch immer eingebettet in spielerische Aktivitäten, damit die Entwicklung eine freudige Erfahrung wird und das Kind sich sicher fühlt.",
+        p7: "Ich strebe danach, durch Spiel und liebevolle Zuwendung den Zugang zu den Kindern zu finden. Für mich zählen die Stärken der Kinder, nicht ihre Schwächen!",
+        p8: "Während des Unterrichts wende ich hochprofessionelle Methoden an und halte mein Wissen auf dem neuesten Stand.",
+        p9: "Neben der Förderung der Kinder ist mir auch die angemessene Information und Unterstützung der Eltern wichtig, da sie oft alleine auf dem herausfordernden Weg sind.",
+        h4: "Ausbildung",
+        uni1: "Universität Debrecen",
+        maj1: "Sonderpädagogik - Schulische Heilpädagogik",
+        uni2: "Eötvös Loránd Universität",
+        maj2: "Heilpädagogik - Somatopädagogik (bei körperlicher Beeinträchtigung)",
+        cert: "Weiterbildung",
+        certs: ["Bewegungsentwicklung im Kontext der Säuglingsreflexe","Präventive Unterstützung der Entwicklung der Schreibbewegung im Kindergarten"]
       }
     },
 
@@ -154,6 +186,22 @@ export const translations = {
         ans6: "A foglalkozást megelőző 24 órában való lemondás esetében a fejlesztés díjának 100%-át meg kell téríteni (helyfenntartás miatt).",
         que7: "Járhatunk egyéni és csoportos foglalkozásra is?",
         ans7: "Természetesen! Amennyiben a gyermek csoportba illeszthető, mindkét foglalkozási forma igénybe vehető. Sőt, ajánlott!",
+      },
+
+      about: {
+        h3: "Rólam",
+        p5: "Az évek során sok, különböző gyermekkel és fiatallal foglalkoztam. A szakmám a hivatásommá vált.",
+        p6: "A munkám során fontosnak tartom, hogy a gyermek problémájának és állapotának megfelelően állítsam össze a terápia menetét, azonban mindezt játékba ágyazottan, hogy a fejlesztés örömteli élmény legyen, és a gyermek biztonságban érezze magát.",
+        p7: "Arra törekszem, hogy játékon keresztül és szeretetteljes odafordulással megtaláljam a gyermekekhez vezető utat.",
+        p8: "A foglalkozások során magas szakmai színvonalú módszereket alkalmazok, naprakészen tartom a tudásom.",
+        p9: "A gyerekek fejlesztése mellett fontosnak tartom a szülők megfelelő tájékoztatását és segítését is, hisz sokszor egyedül vannak az úton, ami számukra is kihívásokkal teli.",
+        h4: "Tanulmányaim",
+        uni1: "Debreceni Egyetem",
+        maj1: "Gyógypedagógus - tanulásban akadályozottak pedagógiája szakirányon",
+        uni2: "Eötvös Loránd Tudományegyetem",
+        maj2: "Gyógypedagógus - szomatopedagógia szakirányon",
+        cert: "Továbbképzések, tanusítványok",
+        certs: ["Mozgásfejlődés a csecsemőkori reflexek tükrében","Az írásmozgás fejlődésének preventív segítése az óvodában","Gyerekjóga oktató"]
       }
     },
   };

@@ -3,33 +3,29 @@ import '../components/AboutInfo.css'
 import img4 from "../images/img4.JPG"
 import hat from "../images/edu_hat.PNG"
 import pap from "../images/edu_pap.PNG"
+import { useLanguage } from './LanguageContext';
 
 const AboutInfo = () => {
+    const { changeLanguage } = useLanguage();
+
+    const { language, translations } = useLanguage();
+
   return (
     <>
         <div className="about top-margin" id="about">
-            <h1 className="g-h1"><span className="g-back">Rólam</span></h1>
+            <h1 className="g-h1"><span className="g-back">{translations[language].about.h3}</span></h1>
 
             <div className="p-back2">
                     <div className="text">
-                        <p>Az évek során sok, különböző gyermekkel és fiatallal
-                        foglalkoztam. A szakmám a hivatásommá vált.</p>
+                        <p>{translations[language].about.p5}</p>
 
-                        <p>A munkám során fontosnak tartom, hogy a gyermek
-                        problémájának és állapotának megfelelően állítsam össze
-                        a terápia menetét, azonban mindezt játékba ágyazottan,
-                        hogy a fejlesztés örömteli élmény legyen, és a gyermek
-                        biztonságban érezze magát.</p>
+                        <p>{translations[language].about.p6}</p>
 
-                        <p>Arra törekszem, hogy játékon keresztül és szeretetteljes
-                        odafordulással megtaláljam a gyermekekhez vezető utat. </p>
+                        <p>{translations[language].about.p7}</p>
 
-                        <p>A foglalkozások során magas szakmai színvonalú
-                        módszereket alkalmazok, naprakészen tartom a tudásom. </p>
+                        <p>{translations[language].about.p8}</p>
 
-                        <p>A gyerekek fejlesztése mellett fontosnak tartom a szülők
-                        megfelelő tájékoztatását és segítését is, hisz sokszor
-                        egyedül vannak az úton, ami számukra is kihívásokkal teli.</p>
+                        <p>{translations[language].about.p9}</p>
                     </div>
 
                     <div className="img4-div scale">
@@ -39,7 +35,7 @@ const AboutInfo = () => {
         </div>
 
         <div className='top-margin'>
-            <h1 className="g-h1"><span className="g-back">Tanulmányaim</span></h1>
+            <h1 className="g-h1"><span className="g-back">{translations[language].about.h4}</span></h1>
         </div>
 
         <div className="studies">
@@ -48,25 +44,25 @@ const AboutInfo = () => {
                 <div className="sch">
                     <div className="uni-cont">
                         <img src={hat} alt="hat" className='edu-icon'/>
-                        <p className="uni">Debreceni Egyetem</p>
+                        <p className="uni">{translations[language].about.uni1}</p>
                     </div>
-                    <p className="dep"> Gyógypedagógus - tanulásban akadályozottak pedagógiája szakirányon</p>
+                    <p className="dep"> {translations[language].about.maj1}</p>
                 </div>
                 <div className="sch">
                     <div className="uni-cont">
                         <img src={hat} alt="hat" className='edu-icon'/>
-                        <p className="uni">Eötvös Loránd Tudományegyetem</p>
+                        <p className="uni">{translations[language].about.uni2}</p>
                     </div>
-                    <p className="dep">Gyógypedagógus - szomatopedagógia szakirányon</p>
+                    <p className="dep">{translations[language].about.maj2}</p>
                 </div>
                 <div className="sch d-show">
                     <div className="uni-cont">
                         <img src={pap} alt="pap" className='edu-icon'/>
-                        <p className="uni">Továbbképzések, tanusítványok</p>
+                        <p className="uni">{translations[language].about.cert}</p>
                     </div>
-                    <p className="dep">Mozgásfejlődés a csecsemőkori reflexek tükrében</p>
-                    <p className="dep">Az írásmozgás fejlődésének preventív segítése az óvodában</p>
-                    <p className="dep">Gyerekjóga oktató</p>
+                    {translations[language].about.certs.map((card) => (
+                        <p className="dep">{card}</p>
+                        ))}
                 </div>
             </div>
 
@@ -74,11 +70,11 @@ const AboutInfo = () => {
                 <div className="sch">
                     <div className="uni-cont">
                         <img src={pap} alt="pap" className='edu-icon'/>
-                        <p className="uni">Továbbképzések, tanusítványok</p>
+                        <p className="uni">{translations[language].about.cert}</p>
                     </div>
-                    <p className="dep">Mozgásfejlődés a csecsemőkori reflexek tükrében</p>
-                    <p className="dep">Az írásmozgás fejlődésének preventív segítése az óvodában</p>
-                    <p className="dep">Gyerekjóga oktató</p>
+                    {translations[language].about.certs.map((card) => (
+                        <p className="dep">{card}</p>
+                        ))}
                 </div>
             </div>
         </div>
