@@ -6,8 +6,6 @@ import pap from "../images/edu_pap.PNG"
 import { useLanguage } from './LanguageContext';
 
 const AboutInfo = () => {
-    const { changeLanguage } = useLanguage();
-
     const { language, translations } = useLanguage();
 
   return (
@@ -61,7 +59,7 @@ const AboutInfo = () => {
                         <p className="uni">{translations[language].about.cert}</p>
                     </div>
                     {translations[language].about.certs.map((card) => (
-                        <p className="dep">{card}</p>
+                        <p className="dep" key={card}>{card}</p>
                         ))}
                 </div>
             </div>
@@ -73,7 +71,7 @@ const AboutInfo = () => {
                         <p className="uni">{translations[language].about.cert}</p>
                     </div>
                     {translations[language].about.certs.map((card) => (
-                        <p className="dep">{card}</p>
+                        <p className="dep" key={card}>{card}</p>
                         ))}
                 </div>
             </div>

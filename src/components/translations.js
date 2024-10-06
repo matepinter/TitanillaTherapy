@@ -13,6 +13,24 @@ import card2en from '../images/card2-en.PNG'
 import card3en from '../images/card3-en.PNG'
 import card4en from '../images/card4-en.PNG'
 import card5en from '../images/card5-en.PNG'
+import servicon1 from '../images/serv-icon1.PNG'
+import servicon2 from '../images/serv-icon2.PNG'
+import servicon3 from '../images/serv-icon3.PNG'
+import servicon4 from '../images/serv-icon4.PNG'
+import servicon5 from '../images/serv-icon5.PNG'
+import servicon6 from '../images/serv-icon6.PNG'
+import servicon1en from '../images/serv-icon1-eng.PNG'
+import servicon2en from '../images/serv-icon2-eng.PNG'
+import servicon3en from '../images/serv-icon3-eng.PNG'
+import servicon4en from '../images/serv-icon4-eng.PNG'
+import servicon5en from '../images/serv-icon5-eng.PNG'
+import servicon6en from '../images/serv-icon6-eng.PNG'
+import servicon1de from '../images/serv-icon1-de.PNG'
+import servicon2de from '../images/serv-icon2-de.PNG'
+import servicon3de from '../images/serv-icon3-de.PNG'
+import servicon4de from '../images/serv-icon4-de.PNG'
+import servicon5de from '../images/serv-icon5-de.PNG'
+import servicon6de from '../images/serv-icon6-de.PNG'
 
 export const translations = {
     en: {
@@ -76,6 +94,113 @@ export const translations = {
         maj2: "Special Needs Educator and Therapist - Physical Disabilities",
         cert: "Further Studies",
         certs: ["Motor development in the context of infant reflexes","Preventive support for the development of writing movements in preschool","Children's yoga instructor"]
+      },
+
+      serv: {
+        h5: "Servicies",
+        serv1: servicon1en,
+        serv2: servicon2en,
+        serv3: servicon3en,
+        serv4: servicon4en,
+        serv5: servicon5en,
+        serv6: servicon6en,
+
+        servs1: ["Coordination and balance",
+          "Targeted movements",
+          "Cross-channel functioning",
+          "Motor clumsiness",
+          "Hyperactivity",
+          "Fundamental movement patterns (walking, running, jumping, throwing, etc.)",
+          "Flat feet, scoliosis",
+          "Retained infant reflexes",
+          "Sensory processing difficulties/disorders",
+          "Body schema, spatial perception, spatial orientation"],
+          
+        servs2: ["Cognitive skills",
+          "General knowledge",
+          "Analysis-synthesis",
+          "Classification",
+          "Generalization (collective terms)",
+          "Organization",
+          "Comparison",
+          "Cause-and-effect relationships",
+          "Arithmetic thinking",
+          "Memory",
+          "Visualization",
+          "Emotional intelligence"],
+
+        servs3: ["Mathematical difficulties / dyscalculia",
+          "Reading difficulties / dyslexia",
+          "Writing difficulties / dysgraphia",
+          "General difficulties in everyday school life",
+          "Lack of independent learning skills",
+          "Concentration and attention difficulties",
+          "Lack of learning motivation",
+          "Difficulties in action planning",
+          "Need for support in developing appropriate work strategies",
+          "School preparation",
+          "Underdeveloped task and rule awareness",
+          "Language development"],
+
+        servs4 : ["Fine motor skills",
+          "Writing movements, preparation for writing",
+          "Motor coordination, hand-eye coordination, movements",
+          "performed with the feet",
+          "Dominance (laterality)",
+          "Clenched pencil grip, improper pencil grip",
+          "Strengthening hands and fingers",
+          "Hand weakness, underdeveloped muscles of fingers, hands, and wrists",
+          "Messy drawings, below-average drawing skills",
+          "Rejection of tasks requiring dexterity",
+          "Sense of rhythm"],
+
+        servs5 : ["Developmental delays, atypical movement patterns",
+          "Play and movement development",
+          "Basal stimulation",
+          "Rhythmic-musical development",
+          "Development of the senses",
+          "Elementary movement patterns (turning, crawling, climbing, etc.)",
+          "Hypotonia, hypertonia, laterality (asymmetry)",
+          "“Lazy baby,” lacks the urge to move",
+          "Does not like to lie on the stomach, does not hold up the head",
+          "Sensory immaturity",
+          "Infant reflexes",
+          "Nervous system immaturity"],
+
+        servs6 : ["Holistic approach to development",
+          "Motor development",
+          "Cognitive development",
+          "Language development",
+          "Nervous system maturation",
+          "Emotional intelligence",
+          "Sensory integration"],
+
+        h6: "Group Sessions",
+        p10: "Small group developments where children learn and grow together. Songs and rhymes play an important role, allowing them to explore the joy of movement and singing together. The group aims to support the development of movement, fine and graphomotor skills, balance and coordination, rhythm sense, cognitive abilities, and personality within a playful framework.",
+        h7: "Online Development, Live Online Format",
+        p11: "Based on prior discussions and assessment tasks, personalized worksheets and games are collaboratively solved and discussed.",
+        h8: "Online Development with personalized worksheets",
+        p12: "Based on a prior discussion and assessment tasks, personalized worksheets and games are created to be completed at home independently with parental assistance. Each session concludes with a parent discussion.",
+        h9: "Consultation for Parents",
+        p13: "Personal and online consultations that assist families in managing everyday challenges.",
+
+        prices: ["Initial Phone Consultation (30 minutes): ______________________________ free",
+          "Individual Development + Consultation (60 minutes): _________________ 120 CHF",
+          "Group Session + Consultation (60 minutes): _________________________ 40 CHF",
+          "Online Development - Live Online Format + Consultation (60 minutes): ___ 100 CHF",
+          
+          "Online Development - Personalized Worksheets + Consultation: __________ 50 CHF",
+          
+          "Phone Consultation (30 minutes): _________________________________ 20 CHF"],
+
+        prices1: ["Initial Phone Consultation (30 minutes): free",
+          "Individual Development + Consultation (60 minutes): 120 CHF",
+          "Group Session + Consultation (60 minutes): 40 CHF",
+          "Online Development - Live Online Format + Consultation (60 minutes): 100 CHF",
+          
+          "Online Development - Personalized Worksheets + Consultation: 50 CHF",
+          
+          "Phone Consultation (30 minutes): 20 CHF"]
       }
     },
 
@@ -139,6 +264,113 @@ export const translations = {
         maj2: "Heilpädagogik - Somatopädagogik (bei körperlicher Beeinträchtigung)",
         cert: "Weiterbildung",
         certs: ["Bewegungsentwicklung im Kontext der Säuglingsreflexe","Präventive Unterstützung der Entwicklung der Schreibbewegung im Kindergarten"]
+      },
+
+      serv: {
+        h5: "Angebot",
+        serv1: servicon1de,
+        serv2: servicon2de,
+        serv3: servicon3de,
+        serv4: servicon4de,
+        serv5: servicon5de,
+        serv6: servicon6de,
+
+      servs1: ["Koordination und Gleichgewicht",
+          "Grundlegende Bewegungsformen (Laufen, Springen usw.)",
+          "Funktion der Kreuzkanäle",
+          "Unruhe",
+          "Ungeschicktheit",
+          "Zielgerichtete Bewegungen",
+          "Plattfüße, Skoliose",
+          "Verbliebene Säuglingsreflexe",
+          "Sensorische Integrationsstörungen",
+          "Wahrnehmungstraining",
+          "Körperschema, Raumwahrnehmung, Räumliche Orientierung"],
+          
+      servs2: ["Kognitive Fähigkeiten",
+          "Allgemeines Wissen",
+          "Analyse-Synthese, Mustererkennung",
+          "Kategorisierung",
+          "Verallgemeinerung (Oberbegriffe)",
+          "Systematisierung",
+          "Vergleich",
+          "Kausalzusammenhang",
+          "Arithmetisches und Abstraktes Denken",
+          "Gedächtnis",
+          "Visualität",
+          "Emotionale Intelligenz"],
+
+      servs3: ["Rechenschwäche / Dyskalkulie",
+          "Problemen beim Lesen / Leseschwäche",
+          "Problemen beim Schreiben / Rechtschreibschwäche",
+          "allgemeinen/undefinierten Schwierigkeiten im Schulalltag",
+          "mangelnden Selbstlernkompetenzen",
+          "Konzentrations- und Aufmerksamkeitsschwierigkeiten",
+          "fehlender Lernmotivation",
+          "Schwierigkeiten bei der Handlungsplanung",
+          "Unterstützungsbedarf beim Erarbeiten von geeigneten",
+          "Arbeitsstrategien",
+          "Schulvorbereitung",
+          "Unzureichendes Aufgaben- und Regelbewusstsein",
+          "Sprachförderung"],
+
+      servs4 : ["Feinmotorische Fähigkeiten",
+          "Handbewegungsübungen",
+          "Schrift- und Zeichentechnik",
+          "Hand- und Fingerkoordination, Visuomotorische Koordination",
+          "Dominanz",
+          "Hand- und Fingerkraft",
+          "Geschicklichkeit der Hände, Objektmanipulation",
+          "Rhythmusgefühl",
+          "Krämpfender Stiftgriff, nicht angemessener Stiftgriff, Kritzelschrift",
+          "Kreisende Zeichnungen, unzureichendes Zeichenniveau"],
+
+      servs5 : ["Entwicklungsverzögerungen",
+          "Spiel- und Bewegungsförderung",
+          "Basale Stimulation",
+          "Rhythmisch- musikalische Förderung",
+          "Wahrnehmungstraining",
+          "Elementare Bewegungsmuster (Drehen, Kriechen, Krabbeln usw.)",
+          "Hypotonie, Hypertonie, Hemisymmetrie",
+          "„Träges Baby“, kein Bewegungsdrang",
+          "Mag nicht auf dem Bauch liegen, hält den Kopf nicht",
+          "Sensorische Unreife",
+          "Säuglingsreflexe",
+          "Neurologische Unreife"],
+
+      servs6 : ["ganzheitliche Förderung",
+          "Motorische Förderung",
+          "Kognitive Förderung",
+          "Sprachförderung",
+          "Reifung des Nervensystems",
+          "Emotionale Intelligenz",
+          "Sensorische Integrations"],
+      
+        h6: "Gruppenunterricht",
+        p10: "Kleingruppenförderung, bei der die Kinder gemeinsam lernen und sich weiterentwickeln. Lieder und Reime spielen eine wichtige Rolle, sodass die Kinder die Freude an gemeinsamer Bewegung und Gesang entdecken. Das Ziel der Gruppe ist unter anderem die Unterstützung der Entwicklung von Bewegungsfähigkeiten, Fein- und Graphomotorik, Gleichgewichtssinn und Koordination, Rhythmusgefühl, kognitiven Fähigkeiten und Persönlichkeitsentwicklung in einem spielerischen Rahmen.",
+        h7: "Online-Förderung in Echtzeit",
+        p11: "Basierend auf einer vorherigen Besprechung und Evaluierungsaufgaben werden maßgeschneiderte Arbeitsblätter und Spiele gemeinsam gelöst und besprochen.",
+        h8: "Online-Förderung mit Arbeitsblättern",
+        p12: "Basierend auf einer vorherigen Besprechung und Evaluierungsaufgaben werden maßgeschneiderte Arbeitsblätter und Spiele erstellt, die zu Hause selbstständig mit elterlicher Unterstützung bearbeitet werden sollen. Jede Sitzung endet mit einer Elternberatung.",
+        h9: "Elternberatung",
+        p13: "Persönliche und Online-Beratungsgespräche, die Familien bei der Bewältigung alltäglicher Herausforderungen unterstützen.",
+
+        h10: "Preise",
+
+        prices: ["Erstes telefonisches Beratungsgespräch (30 Minute): __________________ kostenlos",
+          "Einzelunterricht + Beratungsgespräch(60 Minute): ____________________ 120 CHF",
+          "Gruppenunterricht + Beratungsgespräch(60 Minute): __________________ 40 CHF",
+          "Online-Förderung in Echtzeit + Beratungsgespräch(60 Minute): __________ 100 CHF",
+          "Online-Förderung mit Arbeitsblättern + Beratungsgespräch: _____________ 50 CHF",
+          "Telefonisches Beratungsgespräch (30 Minute): ________________________ 20 CHF"],
+
+        prices1: ["Erstes telefonisches Beratungsgespräch (30 Minute): kostenlos",
+          "Einzelunterricht + Beratungsgespräch(60 Minute): 120 CHF",
+          "Gruppenunterricht + Beratungsgespräch(60 Minute): 40 CHF",
+          "Online-Förderung in Echtzeit + Beratungsgespräch(60 Minute): 100 CHF",
+          "Online-Förderung mit Arbeitsblättern + Beratungsgespräch: 50 CHF",
+          "Telefonisches Beratungsgespräch (30 Minute): 20 CHF"]
+        
       }
     },
 
@@ -202,6 +434,120 @@ export const translations = {
         maj2: "Gyógypedagógus - szomatopedagógia szakirányon",
         cert: "Továbbképzések, tanusítványok",
         certs: ["Mozgásfejlődés a csecsemőkori reflexek tükrében","Az írásmozgás fejlődésének preventív segítése az óvodában","Gyerekjóga oktató"]
+      },
+
+      serv: {
+        h5: "Szolgáltatások",
+        serv1: servicon1,
+        serv2: servicon2,
+        serv3: servicon3,
+        serv4: servicon4,
+        serv5: servicon5,
+        serv6: servicon6,
+        servs1: ["koordináció és egyensúly",
+          "célzó mozgások",
+          "keresztcsatornák működése",
+          "mozgásügyetlenség",
+          "túlmozgékonyság",
+          "alapvető mozgásformák (járás, futás, ugrás, dobás stb.)",
+          "lúdtalp, gerincferdülés",
+          "fennmaradt csecsemőkori reflexek",
+          "szenzoros feldolgozási nehézségek/zavarok",
+          "testséma, térészlelés, téri tájékozódás"],
+
+        servs2: ["koordináció és egyensúly",
+          "célzó mozgások",
+          "keresztcsatornák működése",
+          "mozgásügyetlenség",
+          "túlmozgékonyság",
+          "alapvető mozgásformák (járás, futás, ugrás, dobás stb.)",
+          "lúdtalp, gerincferdülés",
+          "fennmaradt csecsemőkori reflexek",
+          "szenzoros feldolgozási nehézségek/zavarok",
+          "testséma, térészlelés, téri tájékozódás",
+          "kognitív képességek",
+          "érzelmi intelligencia"],
+
+        servs3: ["számolási nehézség / diszkalkúlia",
+          "olvasási nehézség / diszlexia",
+          "írási nehézség / diszgráfia",
+          "általános nehézségek az iskolai mindennapokban",
+          "önálló tanulási készségek hiánya",
+          "koncentrációs és figyelmi nehézségek",
+          "tanulási motiváció hiánya",
+          "nehézségek a cselekvési tervezésben",
+          "támogatás szükségessége megfelelő munkastratégiák kidolgozásához",
+          "iskolai előkészítés",
+          "kialakulatlan feladat- és szabálytudat",
+          "nyelvi fejlesztés"],
+
+        servs4 : ["írásmozgás, íráselőkészítés",
+            "mozgáskoordináció, szem-kéz koordináció, lábbal végzett mozgások",
+            "dominancia (oldaliság)",
+            "görcsös ceruzafogás, nem megfelelő ceruzafogás",
+            "kézgyengeség, ujjak-kéz-csukló izmok fejletlensége",
+            "kusza rajzok, elmaradott rajzszint",
+            "kézügyességet igénylő feladatok elutasítása",
+            "ritmusérzék",
+            "finommotoros képességek",
+            "kéz- és ujjak erősítése"],
+
+        servs5 : ["fejlődési késések, eltérő mozgásformák",
+              "játék- és mozgásfejlesztés",
+              "bazális stimuláció",
+              "ritmikus- zenei fejlesztés",
+              "érzékek fejlsztése",
+              "elemi mozgásminták (forgás, kúszás, mászás stb.)",
+              "hypotonia, hypertonia, féloldaliság (asszimetria)",
+              '"lusta baba", nincs mozgásigénye',
+              "nem szeret hason lenni, nem tartja a fejét",
+              "szenzoros éretlenség",
+              "csecsemőkori reflexek",
+              "idegrendszeri éretlenség"],
+
+        servs6 : ["holisztikus szemléletű fejlesztés",
+                "Motoros fejlesztés",
+                "Kognitív fejlesztés",
+                "Nyelvi fejlesztés",
+                "A idegrendszer érésének serkentése, támogatása",
+                "Érzelmi intelligencia",
+                "Szenzoros integráció"],
+        
+        h6: "Csoportos foglalkozások",
+        p10: "Kiscsoportos fejlesztések, ahol a gyermekek együtt tanulnak és fejlődnek. Fontos szerepet kapnak a dalok és mondókák, így felfedezik a közös mozgás és éneklés örömét. A csoport célja többek között a mozgás, finom-és grafomotoros képességek, egyensúlyérzék és koordináció, ritmusérzék, kognitív képességek és személyiség fejlődésének támogatása játékos keretek között.",
+        h7: "Online fejlesztés, feladatlapokkal",
+        p11: "Online fejlesztés, feladatlapokkal Előzetes megbeszélés és felmérő feladatok alapján személyre szabott feladatlapok, játékok készítése, melyeket otthon, önállóan, szülői segítséggel kell elvégezni. Minden foglalkozás szülői megbeszéléssel zárul.",
+        h8: "Online fejlesztés, élő online formában",
+        p12: "Előzetes megbeszélés és felmérő feladatok alapján személyre szabott feladatlapok, játékok készítése, melyeket otthon, önállóan, szülői segítséggel kell elvégezni.",
+        h9: "Tanácsadás szülőknek",
+        p13: "Személyes és online konzultációk, amelyek segítik a családokat a mindennapi kihívások kezelésében.",
+
+        h10: "Árak",
+
+        prices: ["Első telefonos konzultáció (30 perc): ______________________________ ingyenes",
+
+          "Egyéni fejlesztés + konzultáció (60 perc): ___________________________ 120 CHF",
+          
+          "Csoportos foglalkozás + konzultáció (90 perc): ________________________ 40 CHF",
+          
+          "Online fejlesztés - élő online formában + konzultáció (60 perc): __________ 100 CHF",
+          
+          "Online fejlesztés - személyre szabott feladatlapok + konzultáció: __________ 50 CHF",
+          
+          "Telefonos konzultáció (30 perc): __________________________________ 20 CHF"],
+
+        prices1: ["Első telefonos konzultáció (30 perc): ingyenes",
+
+          "Egyéni fejlesztés + konzultáció (60 perc): 120 CHF",
+          
+          "Csoportos foglalkozás + konzultáció (90 perc): 40 CHF",
+          
+          "Online fejlesztés - élő online formában + konzultáció (60 perc): 100 CHF",
+          
+          "Online fejlesztés - személyre szabott feladatlapok + konzultáció: 50 CHF",
+          
+          "Telefonos konzultáció (30 perc): 20 CHF"]
+
       }
     },
   };

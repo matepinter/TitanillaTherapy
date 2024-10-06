@@ -14,8 +14,6 @@ import { useLanguage } from './LanguageContext';
 
 
 const MainPage = () => {
-  const { changeLanguage } = useLanguage();
-
   const { language, translations } = useLanguage();
 
   return (
