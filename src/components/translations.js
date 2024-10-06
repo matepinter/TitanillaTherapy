@@ -184,6 +184,8 @@ export const translations = {
         h9: "Consultation for Parents",
         p13: "Personal and online consultations that assist families in managing everyday challenges.",
 
+        h10: "Prices",
+
         prices: ["Initial Phone Consultation (30 minutes): ______________________________ free",
           "Individual Development + Consultation (60 minutes): _________________ 120 CHF",
           "Group Session + Consultation (60 minutes): _________________________ 40 CHF",
@@ -358,16 +360,16 @@ export const translations = {
         h10: "Preise",
 
         prices: ["Erstes telefonisches Beratungsgespräch (30 Minute): __________________ kostenlos",
-          "Einzelunterricht + Beratungsgespräch(60 Minute): ____________________ 120 CHF",
-          "Gruppenunterricht + Beratungsgespräch(60 Minute): __________________ 40 CHF",
-          "Online-Förderung in Echtzeit + Beratungsgespräch(60 Minute): __________ 100 CHF",
+          "Einzelunterricht + Beratungsgespräch (60 Minute): ____________________ 120 CHF",
+          "Gruppenunterricht + Beratungsgespräch (60 Minute): __________________ 40 CHF",
+          "Online-Förderung in Echtzeit + Beratungsgespräch (60 Minute): __________ 100 CHF",
           "Online-Förderung mit Arbeitsblättern + Beratungsgespräch: _____________ 50 CHF",
           "Telefonisches Beratungsgespräch (30 Minute): ________________________ 20 CHF"],
 
         prices1: ["Erstes telefonisches Beratungsgespräch (30 Minute): kostenlos",
-          "Einzelunterricht + Beratungsgespräch(60 Minute): 120 CHF",
-          "Gruppenunterricht + Beratungsgespräch(60 Minute): 40 CHF",
-          "Online-Förderung in Echtzeit + Beratungsgespräch(60 Minute): 100 CHF",
+          "Einzelunterricht + Beratungsgespräch (60 Minute): 120 CHF",
+          "Gruppenunterricht + Beratungsgespräch (60 Minute): 40 CHF",
+          "Online-Förderung in Echtzeit + Beratungsgespräch (60 Minute): 100 CHF",
           "Online-Förderung mit Arbeitsblättern + Beratungsgespräch: 50 CHF",
           "Telefonisches Beratungsgespräch (30 Minute): 20 CHF"]
         

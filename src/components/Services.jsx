@@ -115,7 +115,7 @@ const Services = () => {
             </div>
 
             <div className="prices top-margin">
-                <h1 className="g-h1"><span className="g-back">Árak</span></h1>
+                <h1 className="g-h1"><span className="g-back">{translations[language].serv.h10}</span></h1>
                 <div className="p-back4">
                     {translations[language].serv.prices.map((card) => (
                                 <p key={card} className='price'>{card}</p>
