@@ -71,10 +71,38 @@
     background-color: rgb(232, 194, 180, 0.7);
     margin: 0 auto;
     border-radius: 50px;
+    padding: 20px;
+}
+
+.flex-div {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 20px;
+}
+
+.anchor {
+    display: flex;
+    justify-content: right;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+
+.a-flex {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+
+.anchor a:hover {
+    color: black;
+    text-decoration: underline;
+}
+
+.aarrow {
+    width: 30px;
+    height: auto;
+    vertical-align: bottom;
+    margin-right: 10px;
 }
 
 
@@ -201,6 +229,10 @@
     }
 
     .p-back {
+        display: block;
+    }
+
+    .flex-div {
         display: block;
     }
     

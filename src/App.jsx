@@ -30,7 +30,7 @@ function App() {
     <div>
       <LanguageProvider>
         <Navbar scrollToComponent={scrollToComponent} />
-        <MainPage />
+        <MainPage scrollToComponent={scrollToComponent}/>
         <AboutInfo />
         <Services />
         <Products />

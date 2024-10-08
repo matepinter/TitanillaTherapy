@@ -9,11 +9,12 @@ import step2 from '../images/step2.PNG'
 import step3 from '../images/step3.PNG'
 import step4 from '../images/step4.PNG'
 import rarrow from '../images/r-arrow.PNG'
+import aarrow from '../images/a-arrow.PNG'
 import { useLanguage } from './LanguageContext';
 
 
 
-const MainPage = () => {
+const MainPage = ({ scrollToComponent }) => {
   const { language, translations } = useLanguage();
 
   return (
@@ -34,12 +35,20 @@ const MainPage = () => {
           </div>
       </div>
 
-      <div className="p-back scale">
+      <div className="p-back">
+        <div className="flex-div scale">
           <img src={translations[language].main.card1} className="icon"/>
           <img src={translations[language].main.card2} className="icon"/>
           <img src={translations[language].main.card3} className="icon"/>
           <img src={translations[language].main.card4} className="icon"/>
           <img src={translations[language].main.card5} className="icon"/>
+        </div>
+        <div className="anchor">
+          <a href="#services" onClick={(e) => {e.preventDefault(); scrollToComponent('services');}} className="a-flex">
+            <img src={aarrow} alt="arrow" className='aarrow'/>
+            <p>{translations[language].nav.servicies}</p>
+          </a>
+        </div>
       </div>
 
       <div className='top-margin'>
@@ -78,6 +87,12 @@ const MainPage = () => {
           </div>
         </div>
         <p className="l-text">{translations[language].main.p4}</p>
+        <div className="anchor">
+          <a href="#contact" onClick={(e) => {e.preventDefault(); scrollToComponent('contact');}} className="a-flex">
+            <img src={aarrow} alt="arrow" className='aarrow'/>
+            <p>{translations[language].nav.contacts}</p>
+          </a>
+        </div>
       </div>
     </>
   )
