@@ -46,7 +46,7 @@ const MainPage = ({ scrollToComponent }) => {
         <div className="anchor">
           <a href="#services" onClick={(e) => {e.preventDefault(); scrollToComponent('services');}} className="a-flex">
             <img src={aarrow} alt="arrow" className='aarrow'/>
-            <p>{translations[language].nav.servicies}</p>
+            <p className='anch-p'>{translations[language].nav.servicies}</p>
           </a>
         </div>
       </div>
@@ -90,7 +90,7 @@ const MainPage = ({ scrollToComponent }) => {
         <div className="anchor">
           <a href="#contact" onClick={(e) => {e.preventDefault(); scrollToComponent('contact');}} className="a-flex">
             <img src={aarrow} alt="arrow" className='aarrow'/>
-            <p>{translations[language].nav.contacts}</p>
+            <p className='anch-p'>{translations[language].nav.contacts}</p>
           </a>
         </div>
       </div>

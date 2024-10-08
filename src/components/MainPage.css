@@ -189,6 +189,10 @@
     height: auto;
 }
 
+.anch-p {
+    font-size: 20px;
+}
+
 
 
 @media only screen and (max-width: 480px) {
@@ -309,6 +313,10 @@
     }
 
     .p-back {
+        display: block;
+    }
+
+    .flex-div {
         display: block;
     }
     

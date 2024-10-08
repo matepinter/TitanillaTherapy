@@ -660,7 +660,7 @@ export const translations = {
       rev: {
         h14: "Visszajelzések",
         p25: "Együttműködéseim során mind a szülőktől, mind a gyermekektől pozitív visszajelzéseket kaptam. Olvasd el te is, mit mondtak rólam azok, akik már igénybe vették szolgáltatásaimat.",
-        p26: '“Nagyon alapos felmérést végzet tel a gyermekeknél. Játékos feladatok voltak, az együttműködés is nagyon jól ment. A fejlesztés is szuper!”',
+        p26: '“Nagyon alapos felmérést végzett el a gyermekeknél. Játékos feladatok voltak, az együttműködés is nagyon jól ment. A fejlesztés is szuper!”',
         p27: '“A kisfiam járt Titához, a foglalkozás minden percét élvezte, mi szülők is nagyon sok támogatást kaptunk Titától nem csak szakmailag, hanem emberileg is. Sok nehéz pillanatban tartott meg minket. És ami a legfontosabb a kisfiam nagyon sokat fejlődött a közös munka során. Lelkiismeretes és elhivatott szakember, én nagyon jó szívvel tudom őt ajánlani!“',
         p28: '“Gyermekcentrikus, türelmes, megbízható, ügyesen teremt kapcsolatot a gyerekekkel. A gyerekek gyorsan oldódnak a közelèben. Kreatív feladatokkal, jàtèkosan fejleszti, tanítja a gyerekeket. Mi kèt gyerekkel jàrunk hozzà rendszeresen. A gyerekek mindig vàrjàk a fogalkozásokat, szívesen vesznek rèszt a foglalkozásokon. Csak ajánlani tudom Őt.”',
         p29: '“Titanilla a legnagyobb szeretettel , türelemmel és szaktudással vezeti minden egyes foglalkozását. Minden találkozó után látszik a fejlődés a kislányunkon. Nagyon sokat köszönhetünk neki.😊 Mindenkinek csak ajánlani tudom.🥰😊”',
