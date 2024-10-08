@@ -254,7 +254,7 @@ export const translations = {
         contacts: "Kontakt",
         quick: 'Quick Links',
         follow: 'Follow Me',
-        copy: 'Alle Rechte Vorbehalten'
+        copy: '2024 Alle Rechte Vorbehalten'
       },
 
       main: {
