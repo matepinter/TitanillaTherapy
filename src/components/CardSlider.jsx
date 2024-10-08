@@ -6,8 +6,6 @@ import { useLanguage } from './LanguageContext';
 
 
 const CardSlider = () => {
-  const { changeLanguage } = useLanguage();
-
   const { language, translations } = useLanguage();
 
 

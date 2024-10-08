@@ -117,14 +117,20 @@ const Services = () => {
             <div className="prices top-margin">
                 <h1 className="g-h1"><span className="g-back">{translations[language].serv.h10}</span></h1>
                 <div className="p-back4">
-                    {translations[language].serv.prices.map((card) => (
-                                <p key={card} className='price'>{card}</p>
-                                ))}
+                    <p className='price'>{translations[language].serv.prices1}<b>{translations[language].serv.price1}</b></p>
+                    <p className='price'>{translations[language].serv.prices2}<b>{translations[language].serv.price2}</b></p> 
+                    <p className='price'>{translations[language].serv.prices3}<b>{translations[language].serv.price3}</b></p> 
+                    <p className='price'>{translations[language].serv.prices4}<b>{translations[language].serv.price4}</b></p> 
+                    <p className='price'>{translations[language].serv.prices5}<b>{translations[language].serv.price5}</b></p> 
+                    <p className='price'>{translations[language].serv.prices6}<b>{translations[language].serv.price6}</b></p>             
                 </div>
                 <div className="p-back4 p-hide">
-                    {translations[language].serv.prices1.map((card) => (
-                                <p key={card} className='price'>{card}</p>
-                                ))}
+                    <p className='price'>{translations[language].serv.prices1_2}<b>{translations[language].serv.price1_2}</b></p>
+                    <p className='price'>{translations[language].serv.prices2_2}<b>{translations[language].serv.price2_2}</b></p> 
+                    <p className='price'>{translations[language].serv.prices3_2}<b>{translations[language].serv.price3_2}</b></p> 
+                    <p className='price'>{translations[language].serv.prices4_2}<b>{translations[language].serv.price4_2}</b></p> 
+                    <p className='price'>{translations[language].serv.prices5_2}<b>{translations[language].serv.price5_2}</b></p> 
+                    <p className='price'>{translations[language].serv.prices6_2}<b>{translations[language].serv.price6_2}</b></p>
                 </div>
             </div>
         </div> 

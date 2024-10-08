@@ -186,23 +186,61 @@ export const translations = {
 
         h10: "Prices",
 
-        prices: ["Initial Phone Consultation (30 minutes): ______________________________ free",
-          "Individual Development + Consultation (60 minutes): _________________ 120 CHF",
-          "Group Session + Consultation (60 minutes): _________________________ 40 CHF",
-          "Online Development - Live Online Format + Consultation (60 minutes): ___ 100 CHF",
-          
-          "Online Development - Personalized Worksheets + Consultation: __________ 50 CHF",
-          
-          "Phone Consultation (30 minutes): _________________________________ 20 CHF"],
+        prices1: "Initial Phone Consultation (30 minutes): ______________________________ ",
+        price1:  "free",
+        prices2:  "Individual Development + Consultation (60 minutes): _________________ ",
+        price2:  "120 CHF",
+        prices3:  "Group Session + Consultation (60 minutes): _________________________ ",
+        price3:  "40 CHF",
+        prices4:   "Online Development - Live Online Format + Consultation (60 minutes): ___ ",
+        price4:  "100 CHF",
+        prices5:  "Online Development - Personalized Worksheets + Consultation: __________ ",
+        price5:  "50 CHF",
+        prices6:  "Phone Consultation (30 minutes): _________________________________ ",
+        price6:  "20 CHF",
 
-        prices1: ["Initial Phone Consultation (30 minutes): free",
-          "Individual Development + Consultation (60 minutes): 120 CHF",
-          "Group Session + Consultation (60 minutes): 40 CHF",
-          "Online Development - Live Online Format + Consultation (60 minutes): 100 CHF",
-          
-          "Online Development - Personalized Worksheets + Consultation: 50 CHF",
-          
-          "Phone Consultation (30 minutes): 20 CHF"]
+        prices1_2: "Initial Phone Consultation (30 minutes): ",
+        price1_2: "free",
+        prices2_2:  "Individual Development + Consultation (60 minutes): ",
+        price2_2:"120 CHF",
+        prices3_2:  "Group Session + Consultation (60 minutes): ",
+        price3_2:"40 CHF",
+        prices4_2:  "Online Development - Live Online Format + Consultation (60 minutes): ",
+        price4_2:"100 CHF"  ,
+        prices5_2:  "Online Development - Personalized Worksheets + Consultation: ",
+        price5_2:"50 CHF",
+        prices6_2:  "Phone Consultation (30 minutes): ",
+        price6_2:"20 CHF",
+      },
+
+      prod: {
+        h11: "Products",
+        p14: "My goal is to support the learning and development of every child. That’s why I create various tasks and games that develop skills and abilities.",
+        p15: "In this way, I aim to assist conscious parents in using the right tools to support their children's development at home.",
+        p16: "Browse my Etsy shop and discover the best tools for fun learning!",
+        p17: "I continuously expand the offerings, so it’s worth visiting again and again!",
+        p18: 'Use the coupon code "TITANILLA10" to grab a 10% discount!'
+      },
+
+      cont: {
+        h12: "Contact",
+        p19: "I am here to support you and your child at every step of the developmental journey.",
+        p20: "Together, as a team, let’s do everything for your child’s development!",
+        p21: "If you have any questions or would like to learn more about how I can help, please don't hesitate to get in touch with me!",
+        p22: "Switzerland, Online worldwide",
+        p23: "Location of Group Sessions: 4665 Oftringen",
+        h13: "Social Media",
+        p24: "Here you can read my latest posts from the world of special education, as well as useful tips and advice for parents."
+      },
+
+      rev: {
+        h14: "References",
+        p25: "During my collaborations, I received positive feedback from both parents and children. Read what those who have already used my services have to say about me.",
+        p26: '“She conducted a very thorough assessment of the children. The tasks were playful, and the collaboration went very well. The development is also great!”',
+        p27: '“My little boy attended sessions with Tita, and he enjoyed every minute of it. We, as parents, received a lot of support from Tita, not just professionally but also on a personal level. She helped us through many difficult moments. And most importantly, my little boy has developed a lot during our time together. She is a conscientious and dedicated professional, and I highly recommend her!”',
+        p28: '“Child-centered, patient, reliable, and skillful at connecting with children. The kids quickly relax in her presence. She develops and teaches children through creative tasks and play. We regularly attend sessions with two children. They always look forward to the sessions and happily participate. I can only recommend her.”',
+        p29: '“Titanilla leads each of her sessions with the utmost love, patience, and expertise. After every meeting, the progress in our little girl is evident. We owe her a lot. 😊 I can only recommend her to everyone! 🥰😊”',
+        p30: '“I wholeheartedly recommend Titanilla and her sessions to everyone. She is extremely loving towards children, kind, and patient. My little boy immediately took to her, and we found her very likable. My child always looks forward to our meetings. He has clearly developed a lot, and this brings us great joy. Feel free to reach out to her with confidence.”',
       }
     },
 
@@ -359,20 +397,62 @@ export const translations = {
 
         h10: "Preise",
 
-        prices: ["Erstes telefonisches Beratungsgespräch (30 Minute): __________________ kostenlos",
-          "Einzelunterricht + Beratungsgespräch (60 Minute): ____________________ 120 CHF",
-          "Gruppenunterricht + Beratungsgespräch (60 Minute): __________________ 40 CHF",
-          "Online-Förderung in Echtzeit + Beratungsgespräch (60 Minute): __________ 100 CHF",
-          "Online-Förderung mit Arbeitsblättern + Beratungsgespräch: _____________ 50 CHF",
-          "Telefonisches Beratungsgespräch (30 Minute): ________________________ 20 CHF"],
+        prices1: "Erstes telefonisches Beratungsgespräch (30 Minute): __________________ ",
+        price1:  "kostenlos",
+        prices2:  "Einzelunterricht + Beratungsgespräch (60 Minute): ____________________ ",
+        price2:  "120 CHF",
+        prices3:  "Gruppenunterricht + Beratungsgespräch (60 Minute): __________________ ",
+        price3:  "40 CHF",
+        prices4:  "Online-Förderung in Echtzeit + Beratungsgespräch (60 Minute): __________ ",
+        price4:  "100 CHF",
+        prices5:  "Online-Förderung mit Arbeitsblättern + Beratungsgespräch: _____________ ",
+        price5:  "50 CHF",
+        prices6:  "Telefonisches Beratungsgespräch (30 Minute): ________________________ ",
+        price6: "20 CHF",
 
-        prices1: ["Erstes telefonisches Beratungsgespräch (30 Minute): kostenlos",
-          "Einzelunterricht + Beratungsgespräch (60 Minute): 120 CHF",
-          "Gruppenunterricht + Beratungsgespräch (60 Minute): 40 CHF",
-          "Online-Förderung in Echtzeit + Beratungsgespräch (60 Minute): 100 CHF",
-          "Online-Förderung mit Arbeitsblättern + Beratungsgespräch: 50 CHF",
-          "Telefonisches Beratungsgespräch (30 Minute): 20 CHF"]
+        prices1_2: "Erstes telefonisches Beratungsgespräch (30 Minute): ",
+        price1_2:  "kostenlos",
+        prices2_2:  "Einzelunterricht + Beratungsgespräch (60 Minute): ",
+        price2_2:  "120 CHF",
+        prices3_2:  "Gruppenunterricht + Beratungsgespräch (60 Minute): ",
+        price3_2:  "40 CHF",
+        prices4_2:  "Online-Förderung in Echtzeit + Beratungsgespräch (60 Minute): ",
+        price4_2:  "100 CHF",
+        prices5_2:  "Online-Förderung mit Arbeitsblättern + Beratungsgespräch: ",
+        price5_2:  "50 CHF",
+        prices6_2:  "Telefonisches Beratungsgespräch (30 Minute): ",
+        price6_2: "20 CHF",
         
+      },
+
+      prod: {
+        h11: "Produkte",
+        p14: "Mein Ziel ist es, das Lernen und die Entwicklung jedes Kindes zu unterstützen. Aus diesem Grund erstelle ich verschiedene Aufgaben und Spiele zur Förderung von Fähigkeiten und Fertigkeiten.",
+        p15: "So möchte ich bewusste Eltern dabei unterstützen, ihre Kinder auch zu Hause mit geeigneten Werkzeugen in ihrer Entwicklung zu fördern.",
+        p16: "Schau dich in meinem Etsy-Shop um und entdecke die besten Hilfsmittel für unterhaltsames Lernen!",
+        p17: "Ich erweitere mein Angebot kontinuierlich, es lohnt sich, immer wieder",
+        p18: "Nutze den Rabattcode „TITANILLA10“, um 10 % Rabatt zu erhalten!"
+      },
+
+      cont: {
+        h12: "Kontakt",
+        p19: "Ich bin hier, um dich und dein Kind bei jedem Schritt auf dem Weg der Entwicklung zu unterstützen.",
+        p20: "Lass uns gemeinsam als Team alles für die Entwicklung deines Kindes tun!",
+        p21: "Wenn du Fragen hast oder mehr darüber erfahren möchtest, wie ich dir helfen kann, zögere nicht, mich zu kontaktieren!",
+        p22: "Schweiz, Online weltweit",
+        p23: "Ort des Gruppenunterrichts: 4665 Oftringen",
+        h13: "Social Media",
+        p24: "Hier kannst du meine neuesten Beiträge aus der Welt der Heilpädagogik lesen sowie nützliche Tipps und Ratschläge für Eltern finden."
+      },
+
+      rev: {
+        h14: "Referenzen",
+        p25: "In meinen Kooperationen habe ich sowohl von Eltern als auch von Kindern positive Rückmeldungen erhalten. Lies auch, was diejenigen über mich gesagt haben, die bereits meine Dienstleistungen in Anspruch genommen haben.",
+        p26: '„Sie hat eine sehr gründliche Einschätzung bei den Kindern vorgenommen. Die Aufgaben waren spielerisch, die Zusammenarbeit lief ebenfalls sehr gut. Die Förderung ist uch super!“',
+        p27: '„Mein Sohn hat am Unterricht bei Tita teilgenommen und jede Minute davon genossen. Wir Eltern haben von Tita nicht nur fachliche, sondern auch menschliche Unterstützung erhalten. Sie hat uns in vielen schwierigen Momenten gehalten. Und das Wichtigste ist, dass mein Sohn während der gemeinsamen Arbeit sehr viel Fortschritt gemacht hat. Sie ist eine gewissenhafte und engagierte Fachkraft, die ich von Herzen empfehlen kann!“',
+        p28: '„Kinderzentriert, geduldig, zuverlässig und geschickt im Aufbau von Beziehungen zu den Kindern. Die Kinder entspannen sich schnell in ihrer Nähe. Sie entwickelt und unterrichtet die Kinder spielerisch mit kreativen Aufgaben. Wir gehen regelmäßig mit unseren beiden Kindern zu ihr. Die Kinder freuen sich immer auf den Unterricht und nehmen gerne daran teil. Ich kann sie nur empfehlen.“',
+        p29: '„Titanilla leitet jeden Unterricht mit größter Liebe, Geduld und Fachwissen. Nach jedem Treffen ist die Entwicklung unserer kleinen Tochter sichtbar. Wir sind ihr sehr dankbar. 😊 Ich kann sie nur jedem empfehlen 🥰😊“',
+        p30: '„Ich empfehle Titanilla und ihren Unterricht jedem von Herzen. Sie ist äußerst kinderlieb, freundlich und geduldig. Mein kleiner Junge hat sich sofort in sie verliebt, und wir fanden sie sehr sympathisch. Mein Kind freut sich immer sehr auf unsere Treffen. Er hat sich offensichtlich viel entwickelt, und das erfüllt uns mit großer Freude. Zögert nicht, sie vertrauensvoll zu kontaktieren.“',
       }
     },
 
@@ -526,30 +606,62 @@ export const translations = {
 
         h10: "Árak",
 
-        prices: ["Első telefonos konzultáció (30 perc): ______________________________ ingyenes",
+        prices1: "Első telefonos konzultáció (30 perc): ______________________________ ",
+        price1:  "ingyenes",
+        prices2:  "Egyéni fejlesztés + konzultáció (60 perc): ___________________________ ",
+        price2:  "120 CHF",
+        prices3:  "Csoportos foglalkozás + konzultáció (90 perc): ________________________ ",
+        price3:  "40 CHF",
+        prices4:  "Online fejlesztés - élő online formában + konzultáció (60 perc): __________ ",
+        price4:  "100 CHF",
+        prices5:  "Online fejlesztés - személyre szabott feladatlapok + konzultáció: __________ ",
+        price5: "50 CHF",
+        prices6:  "Telefonos konzultáció (30 perc): __________________________________ ",
+        price6:  "20 CHF",
 
-          "Egyéni fejlesztés + konzultáció (60 perc): ___________________________ 120 CHF",
-          
-          "Csoportos foglalkozás + konzultáció (90 perc): ________________________ 40 CHF",
-          
-          "Online fejlesztés - élő online formában + konzultáció (60 perc): __________ 100 CHF",
-          
-          "Online fejlesztés - személyre szabott feladatlapok + konzultáció: __________ 50 CHF",
-          
-          "Telefonos konzultáció (30 perc): __________________________________ 20 CHF"],
+        prices1_2: "Első telefonos konzultáció (30 perc): ",
+        price1_2:  "ingyenes",
+        prices2_2:  "Egyéni fejlesztés + konzultáció (60 perc): ",
+        price2_2:  "120 CHF",
+        prices3_2:  "Csoportos foglalkozás + konzultáció (90 perc): ",
+        price3_2:  "40 CHF",
+        prices4_2:  "Online fejlesztés - élő online formában + konzultáció (60 perc): ",
+        price4_2:  "100 CHF",
+        prices5_2:  "Online fejlesztés - személyre szabott feladatlapok + konzultáció: ",
+        price5_2: "50 CHF",
+        prices6_2:  "Telefonos konzultáció (30 perc): ",
+        price6_2:  "20 CHF",
 
-        prices1: ["Első telefonos konzultáció (30 perc): ingyenes",
+      },
 
-          "Egyéni fejlesztés + konzultáció (60 perc): 120 CHF",
-          
-          "Csoportos foglalkozás + konzultáció (90 perc): 40 CHF",
-          
-          "Online fejlesztés - élő online formában + konzultáció (60 perc): 100 CHF",
-          
-          "Online fejlesztés - személyre szabott feladatlapok + konzultáció: 50 CHF",
-          
-          "Telefonos konzultáció (30 perc): 20 CHF"]
+      prod: {
+        h11: "Termékek",
+        p14: "Célom, hogy támogassam minden gyermek tanulását és fejlődését. Éppen ezért készítek különböző képesség-és készségfejlesztő feladatokat és játékokat.",
+        p15: "Így szeretném segíteni a tudatos szülőket, hogy otthon is megfelelő eszközökkel támogassák gyermekük fejlődését.",
+        p16: "Nézz körül az Etsy boltomban, és fedezd fel a legjobb eszközöket a szórakoztató tanuláshoz!",
+        p17: "A kínálatot folyamatosan bővítem, megéri újra ás újra visszalátogatni!",
+        p18: "Használd a “TITANILLA10” kuponkódot, hogy bezsebeld a 10% kedvezményt!"
+      },
 
+      cont: {
+        h12: "Kapcsolat",
+        p19: "Én azért vagyok, hogy támogassalak téged és gyermekedet minden lépésnél a fejlődés útján.",
+        p20: "Együtt, csapatként tegyünk meg mindent a gyermeked fejlődése érdekében!",
+        p21: "Ha kérdésed van, vagy szeretnél többet megtudni arról, hogyan segíthetek, ne habozz kapcsolatba lépni velem!",
+        p22: "Svájc, Online világszerte",
+        p23: "Csoportos foglalkozás helye: 4665 Oftringen",
+        h13: "Közösségi média",
+        p24: "Itt elolvashatod a legújabb bejegyzéseimet a gyógypedagógia világából, valamint hasznos tippeket és tanácsokat a szülők számára."
+      },
+
+      rev: {
+        h14: "Visszajelzések",
+        p25: "Együttműködéseim során mind a szülőktől, mind a gyermekektől pozitív visszajelzéseket kaptam. Olvasd el te is, mit mondtak rólam azok, akik már igénybe vették szolgáltatásaimat.",
+        p26: '“Nagyon alapos felmérést végzet tel a gyermekeknél. Játékos feladatok voltak, az együttműködés is nagyon jól ment. A fejlesztés is szuper!”',
+        p27: '“A kisfiam járt Titához, a foglalkozás minden percét élvezte, mi szülők is nagyon sok támogatást kaptunk Titától nem csak szakmailag, hanem emberileg is. Sok nehéz pillanatban tartott meg minket. És ami a legfontosabb a kisfiam nagyon sokat fejlődött a közös munka során. Lelkiismeretes és elhivatott szakember, én nagyon jó szívvel tudom őt ajánlani!“',
+        p28: '“Gyermekcentrikus, türelmes, megbízható, ügyesen teremt kapcsolatot a gyerekekkel. A gyerekek gyorsan oldódnak a közelèben. Kreatív feladatokkal, jàtèkosan fejleszti, tanítja a gyerekeket. Mi kèt gyerekkel jàrunk hozzà rendszeresen. A gyerekek mindig vàrjàk a fogalkozásokat, szívesen vesznek rèszt a foglalkozásokon. Csak ajánlani tudom Őt.”',
+        p29: '“Titanilla a legnagyobb szeretettel , türelemmel és szaktudással vezeti minden egyes foglalkozását. Minden találkozó után látszik a fejlődés a kislányunkon. Nagyon sokat köszönhetünk neki.😊 Mindenkinek csak ajánlani tudom.🥰😊”',
+        p30: '“Mindenkinek nyugodt szívvel ajánlom Titanillát és a foglalkozását. Rendkívül gyerekszerető, kedves és türelmes. A kisfiam azonnal a szívébe zárta, nekünk pedig nagyon szimpatikus lett. A gyermekem mindig nagyon várja a közös találkozásokat.Láthatóan sokat fejlődött és ez nagy örömmel tölt el minket. Keressétek bizalommal .”',
       }
     },
   };
