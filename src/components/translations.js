@@ -41,7 +41,8 @@ export const translations = {
         products: "Products",
         contacts: "Contacts",
         quick: 'Quick Links',
-        follow: 'Follow Me'
+        follow: 'Follow Me',
+        copy: "2024 All Rights Reserved"
       },
 
       main: {
@@ -252,7 +253,8 @@ export const translations = {
         products: "Produkte",
         contacts: "Kontakt",
         quick: 'Quick Links',
-        follow: 'Follow Me'
+        follow: 'Follow Me',
+        copy: 'Alle Rechte Vorbehalten'
       },
 
       main: {
@@ -464,7 +466,8 @@ export const translations = {
         products: "Termékek",
         contacts: "Kapcsolat",
         quick: 'Gyors Linkek',
-        follow: 'Kövess Be'
+        follow: 'Kövess Be',
+        copy: "2024 Minden Jog Fenntartva"
       },
 
       main: {

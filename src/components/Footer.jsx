@@ -10,7 +10,8 @@ const Footer = ({ scrollToComponent }) => {
         <footer className="footer">
         <div className="footer-content">
             <div className="footer-left">
-            <h3>Titanila Therapy</h3>
+              <h3>Titanila Therapy</h3>
+              <p>&copy; {translations[language].nav.copy}</p>
             </div>
 
             <div className="footer-center">
