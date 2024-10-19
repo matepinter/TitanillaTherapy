@@ -1,6 +1,6 @@
 import { useState, useRef, useEffect } from "react";
 
-const useSlideIn = (threshold = 0.1, rootMargin = "0px 0px -100px 0px") => {
+const useSlideIn = (threshold = 0.1) => {
   const [isVisible, setIsVisible] = useState(false);
   const elementRef = useRef(null);
 
@@ -13,7 +13,7 @@ const useSlideIn = (threshold = 0.1, rootMargin = "0px 0px -100px 0px") => {
           }
         });
       },
-      { threshold, rootMargin }
+      { threshold }
     );
 
     if (elementRef.current) {
@@ -25,7 +25,7 @@ const useSlideIn = (threshold = 0.1, rootMargin = "0px 0px -100px 0px") => {
         observer.unobserve(elementRef.current);
       }
     };
-  }, [threshold, rootMargin]);
+  }, [threshold]);
 
   return { isVisible, elementRef };
 };

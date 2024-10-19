@@ -15,7 +15,7 @@ const UserReview = () => {
 
     const { language, translations } = useLanguage();
 
-    const { isVisible, elementRef } = useSlideIn(0.1,  "0px 0px -100px 0px");
+    const { isVisible, elementRef } = useSlideIn(0.1);
 
     const cardData = [
         { id: 1, review: translations[language].rev.p26},
