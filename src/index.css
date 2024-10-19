@@ -45,6 +45,19 @@ a{
     transform: scale(1.2);
 }
 
+/* Slide in from the right */
+.slide-in-right {
+    transform: translateX(-100px);
+    opacity: 0;
+    transition: transform 0.8s ease-out, opacity 0.8s ease-out;
+  }
+  
+  .slide-in-right.visible-in {
+    transform: translateX(0);
+    opacity: 1;
+  }
+  
+
 
 @media only screen and (max-width: 480px) {
     .top-margin {

@@ -3,12 +3,16 @@ import '../components/Services.css'
 import img5 from '../images/img5.JPG'
 import img6 from '../images/img6.JPG'
 import { useLanguage } from './LanguageContext'
+import useSlideIn from "./UseSlideIn";
 
 const Services = () => {
     const { language, translations } = useLanguage();
 
+    const { isVisible, elementRef } = useSlideIn(0.1);
+
   return (
     <>
+    <div ref={elementRef} className={`slide-in-right ${isVisible ? "visible-in" : ""}`}>
         <div className='top-margin'>
             <div className="o-head" id='services'>
                 <h1><span className="o-back">{translations[language].serv.h5}</span></h1>
@@ -95,11 +99,11 @@ const Services = () => {
                             <p className="serv-desc">{translations[language].serv.p11}</p>
                         </div>
                     </div>
-                    <img src={img5} alt="img5" className='img5'/>
+                    <img src={img5} alt="img5" className='img5' loading="lazy"/>
                 </div>
 
                 <div className="serv-cont">
-                    <img src={img6} alt="img6" className='img6'/>
+                    <img src={img6} alt="img6" className='img6' loading="lazy"/>
                     <div className="serv-texts">
                         <div className="serv-text">
                             <h1 className="serv-name">{translations[language].serv.h8}</h1>
@@ -133,7 +137,8 @@ const Services = () => {
                     <p className='price'>{translations[language].serv.prices6_2}<b>{translations[language].serv.price6_2}</b></p>
                 </div>
             </div>
-        </div> 
+        </div>
+    </div> 
     </>
   )
 }

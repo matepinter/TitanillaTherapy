@@ -4,12 +4,17 @@ import img4 from "../images/img4.JPG"
 import hat from "../images/edu_hat.PNG"
 import pap from "../images/edu_pap.PNG"
 import { useLanguage } from './LanguageContext';
+import useSlideIn from "./UseSlideIn";
+
 
 const AboutInfo = () => {
     const { language, translations } = useLanguage();
 
+    const { isVisible, elementRef } = useSlideIn(0.1,  "0px 0px -100px 0px");
+
   return (
     <>
+    <div ref={elementRef} className={`slide-in-right ${isVisible ? "visible-in" : ""}`}>
         <div className="about top-margin" id="about">
             <h1 className="g-h1"><span className="g-back">{translations[language].about.h3}</span></h1>
 
@@ -27,7 +32,7 @@ const AboutInfo = () => {
                     </div>
 
                     <div className="img4-div scale">
-                        <img src= {img4} className="img4"/>
+                        <img src= {img4} className="img4" loading="lazy"/>
                     </div>
             </div>
         </div>
@@ -76,6 +81,7 @@ const AboutInfo = () => {
                 </div>
             </div>
         </div>
+    </div>
     </>
   )
 }

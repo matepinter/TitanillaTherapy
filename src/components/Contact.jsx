@@ -7,12 +7,16 @@ import mail from "../images/mail-icon.PNG"
 import loc from "../images/loc-icon.PNG"
 import house from "../images/home-icon.PNG"
 import { useLanguage } from './LanguageContext'
+import useSlideIn from "./UseSlideIn";
 
 const Contact = () => {
     const { language, translations } = useLanguage();
 
+    const { isVisible, elementRef } = useSlideIn(0.1,  "0px 0px -100px 0px");
+
   return (
     <>
+    <div ref={elementRef} className={`slide-in-right ${isVisible ? "visible-in" : ""}`}>
         <div className='top-margin'>
             <div className="o-head" id="contact">
                     <h1><span className="o-back">{translations[language].cont.h12}</span></h1>
@@ -52,6 +56,7 @@ const Contact = () => {
                 </div>
             </div>
         </div>
+    </div>
     </>
   )
 }

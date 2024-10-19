@@ -5,12 +5,16 @@ import etsy1 from "../images/etsy-1.JPG"
 import etsy2 from "../images/etsy-2.JPG"
 import etsy3 from "../images/etsy-3.JPG"
 import { useLanguage } from './LanguageContext'
+import useSlideIn from "./UseSlideIn";
 
 const Products = () => {
   const { language, translations } = useLanguage();
 
+  const { isVisible, elementRef } = useSlideIn(0.1,  "0px 0px -100px 0px");
+
   return (
     <>
+    <div ref={elementRef} className={`slide-in-right ${isVisible ? "visible-in" : ""}`}>
       <div className='top-margin'>
           <h1 className="g-h1" id="products"><span className="g-back">{translations[language].prod.h11}</span></h1>
 
@@ -29,6 +33,7 @@ const Products = () => {
               <a href=" https://titanillatherapy.etsy.com?coupon=TITANILLA10" target='_blank'> https://titanillatherapy.etsy.com?coupon=TITANILLA10</a>
           </div>
         </div>
+      </div>
     </>
   )
 }

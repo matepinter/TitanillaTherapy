@@ -7,12 +7,15 @@ import mark from "../images/mark.PNG"
 import img7 from "../images/img7.JPG"
 import img8 from "../images/img8.JPG"
 import { useLanguage } from './LanguageContext'
+import useSlideIn from "./UseSlideIn";
 
 
 const UserReview = () => {
     const [currentIndex, setCurrentIndex] = useState(0);
 
     const { language, translations } = useLanguage();
+
+    const { isVisible, elementRef } = useSlideIn(0.1,  "0px 0px -100px 0px");
 
     const cardData = [
         { id: 1, review: translations[language].rev.p26},
@@ -36,6 +39,7 @@ const UserReview = () => {
 
     return (
         <>
+    <div ref={elementRef} className={`slide-in-right ${isVisible ? "visible-in" : ""}`}>
             <div className='top-margin'>
                 <div className="o-head">
                     <h1><span className="o-back">{translations[language].rev.h14}</span></h1>
@@ -46,8 +50,8 @@ const UserReview = () => {
                 </div>
 
                 <div className="imgs scale">
-                    <img src={img7} alt="img7" className='img7' />
-                    <img src={img8} alt="img8" className='img8' />
+                    <img src={img7} alt="img7" className='img7'  loading="lazy"/>
+                    <img src={img8} alt="img8" className='img8'  loading="lazy"/>
                 </div>
 
                 <div className="slider-container2">
@@ -77,6 +81,7 @@ const UserReview = () => {
                 </div>
                 </div>
             </div>
+        </div>
         </>
       );
 };
