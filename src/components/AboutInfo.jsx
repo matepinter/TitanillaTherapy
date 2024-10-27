@@ -32,7 +32,7 @@ const AboutInfo = () => {
                     </div>
 
                     <div className="img4-div scale">
-                        <img src= {img4} className="img4" loading="lazy"/>
+                        <img src= {img4} className="img4" loading="lazy" alt="img4"/>
                     </div>
             </div>
         </div>

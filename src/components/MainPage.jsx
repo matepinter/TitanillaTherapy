@@ -42,11 +42,11 @@ const MainPage = ({ scrollToComponent }) => {
 
         <div className="p-back">
           <div className="flex-div">
-            <img src={translations[language].main.card1} className="icon"/>
-            <img src={translations[language].main.card2} className="icon"/>
-            <img src={translations[language].main.card3} className="icon"/>
-            <img src={translations[language].main.card4} className="icon"/>
-            <img src={translations[language].main.card5} className="icon"/>
+            <img src={translations[language].main.card1} className="icon" alt="serv-img"/>
+            <img src={translations[language].main.card2} className="icon" alt="serv-img"/>
+            <img src={translations[language].main.card3} className="icon" alt="serv-img"/>
+            <img src={translations[language].main.card4} className="icon" alt="serv-img"/>
+            <img src={translations[language].main.card5} className="icon" alt="serv-img"/>
           </div>
           <div className="anchor">
             <a href="#services" onClick={(e) => {e.preventDefault(); scrollToComponent('services');}} className="a-flex">
@@ -66,28 +66,28 @@ const MainPage = ({ scrollToComponent }) => {
           <p className="head">{translations[language].main.h2}</p>
           <div className="steps">
             <div className="step-card">
-              <img src={step1} className="step"/>
+              <img src={step1} className="step" alt="steps1"/>
               <p>{translations[language].main.rec}</p>
             </div>
 
-            <img src={rarrow} className="r-arrow"/>
+            <img src={rarrow} className="r-arrow" alt="arrow"/>
 
             <div className="step-card">
-              <img src={step2} className="step"/>
+              <img src={step2} className="step" alt="steps2"/>
               <p>{translations[language].main.tel}</p>
             </div>
 
-            <img src={rarrow} className="r-arrow"/>
+            <img src={rarrow} className="r-arrow" alt="arrow"/>
 
             <div className="step-card">
-              <img src={step3} className="step"/>
+              <img src={step3} className="step" alt="steps3"/>
               <p>{translations[language].main.fac}</p>
             </div>
 
-            <img src={rarrow} className="r-arrow"/>
+            <img src={rarrow} className="r-arrow" alt="arrow"/>
 
             <div className="step-card">
-              <img src={step4} className="step"/>
+              <img src={step4} className="step" alt="steps4"/>
               <p>{translations[language].main.tog}</p>
             </div>
           </div>

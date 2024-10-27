@@ -20,7 +20,7 @@ const Services = () => {
 
             <div className="p-back3 scale">
                 <div className="dropdown">
-                    <img src={translations[language].serv.serv1} className="icon2"/>
+                    <img src={translations[language].serv.serv1} className="icon2" alt="serv1"/>
                     <div className="dropdown-content">
                         <ul className="list">
                             {translations[language].serv.servs1.map((card) => (
@@ -31,7 +31,7 @@ const Services = () => {
                 </div>
 
                 <div className="dropdown">
-                    <img src={translations[language].serv.serv2} className="icon2"/>
+                    <img src={translations[language].serv.serv2} className="icon2"  alt="serv2"/>
                     <div className="dropdown-content">
                         <ul className="list">
                             {translations[language].serv.servs2.map((card) => (
@@ -42,7 +42,7 @@ const Services = () => {
                 </div>
 
                 <div className="dropdown">
-                    <img src={translations[language].serv.serv3} className="icon2"/>
+                    <img src={translations[language].serv.serv3} className="icon2" alt="serv3"/>
                     <div className="dropdown-content">
                         <ul className="list">
                             {translations[language].serv.servs3.map((card) => (
@@ -53,7 +53,7 @@ const Services = () => {
                 </div>
 
                 <div className="dropdown">
-                    <img src={translations[language].serv.serv4} className="icon2"/>
+                    <img src={translations[language].serv.serv4} className="icon2" alt="serv4"/>
                     <div className="dropdown-content">
                         <ul className="list">
                             {translations[language].serv.servs5.map((card) => (
@@ -64,7 +64,7 @@ const Services = () => {
                 </div>
 
                 <div className="dropdown">
-                    <img src={translations[language].serv.serv5} className="icon2"/>
+                    <img src={translations[language].serv.serv5} className="icon2" alt="serv5"/>
                     <div className="dropdown-content">
                         <ul className="list">
                             {translations[language].serv.servs5.map((card) => (
@@ -75,7 +75,7 @@ const Services = () => {
                 </div>
 
                 <div className="dropdown">
-                    <img src={translations[language].serv.serv6} className="icon2"/>
+                    <img src={translations[language].serv.serv6} className="icon2" alt="serv6"/>
                     <div className="dropdown-content">
                         <ul className="list">
                             {translations[language].serv.servs6.map((card) => (
