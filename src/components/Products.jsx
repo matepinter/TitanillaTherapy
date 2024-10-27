@@ -10,7 +10,7 @@ import useSlideIn from "./UseSlideIn";
 const Products = () => {
   const { language, translations } = useLanguage();
 
-  const { isVisible, elementRef } = useSlideIn(0.1);
+  const { isVisible, elementRef } = useSlideIn(0.01);
 
   return (
     <>

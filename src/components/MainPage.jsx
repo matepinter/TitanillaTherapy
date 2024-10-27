@@ -41,7 +41,7 @@ const MainPage = ({ scrollToComponent }) => {
         
 
         <div className="p-back">
-          <div className="flex-div scale">
+          <div className="flex-div">
             <img src={translations[language].main.card1} className="icon"/>
             <img src={translations[language].main.card2} className="icon"/>
             <img src={translations[language].main.card3} className="icon"/>
