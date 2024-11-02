@@ -1,9 +1,9 @@
 import React from 'react'
 import "../components/Products.css"
 import etsylogo from "../images/etsy-logo.PNG"
-import etsy1 from "../images/etsy-1.JPG"
-import etsy2 from "../images/etsy-2.JPG"
-import etsy3 from "../images/etsy-3.JPG"
+import etsy1 from "../images/etsy-1.WEBP"
+import etsy2 from "../images/etsy-2.WEBP"
+import etsy3 from "../images/etsy-3.WEBP"
 import { useLanguage } from './LanguageContext'
 import useSlideIn from "./UseSlideIn";
 

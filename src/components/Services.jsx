@@ -1,7 +1,7 @@
 import React from 'react'
 import '../components/Services.css'
-import img5 from '../images/img5.JPG'
-import img6 from '../images/img6.JPG'
+import img5 from '../images/img5.WEBP'
+import img6 from '../images/img6.WEBP'
 import { useLanguage } from './LanguageContext'
 import useSlideIn from "./UseSlideIn";
 

@@ -1,6 +1,6 @@
 import React from 'react'
 import '../components/AboutInfo.css'
-import img4 from "../images/img4.JPG"
+import img4 from "../images/img4.WEBP"
 import hat from "../images/edu_hat.PNG"
 import pap from "../images/edu_pap.PNG"
 import { useLanguage } from './LanguageContext';

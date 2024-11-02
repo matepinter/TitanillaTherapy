@@ -4,8 +4,8 @@ import fiveStare from "../images/five-star.PNG"
 import rstep from '../images/r-step.PNG'
 import lstep from '../images/l-step.PNG'
 import mark from "../images/mark.PNG"
-import img7 from "../images/img7.JPG"
-import img8 from "../images/img8.JPG"
+import img7 from "../images/img7.WEBP"
+import img8 from "../images/img8.WEBP"
 import { useLanguage } from './LanguageContext'
 import useSlideIn from "./UseSlideIn";
 
